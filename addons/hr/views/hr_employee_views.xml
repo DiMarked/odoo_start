@@ -88,7 +88,7 @@
                             <group>
                                 <field name="mobile_phone" widget="phone"/>
                                 <field name="work_phone" widget="phone"/>
-                                <field name="work_email" widget="email"/>
+                                <field name="work_email" invisible="1" widget="email"/>
                                 <field name="company_id" groups="base.group_multi_company"/>
                             </group>
                             <group>
